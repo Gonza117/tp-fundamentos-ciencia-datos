@@ -27,7 +27,7 @@ El proyecto realiza un análisis exploratorio inicial de datos (EDA), la caracte
 
 ## Requisitos Previos
 
-Asegúrate de contar con las siguientes herramientas instaladas localmente antes de iniciar:
+
 
 - **Python:** Versión `3.10` o superior.
 - **Git:** Para clonar el repositorio desde GitHub.
