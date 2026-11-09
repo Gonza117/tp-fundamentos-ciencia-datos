@@ -107,14 +107,6 @@ Para asegurar que todo el código corra limpiamente de principio a fin sin error
    - Todo el flujo de datos (cargado de datos crudos, limpieza, visualizaciones, pruebas estadísticas y conclusiones) se ejecutará secuencialmente sin interrupciones.
 
 ---
-
-## Garantía de Reproducibilidad
-
-- **Rutas Relativas:** La notebook utiliza exclusivamente rutas relativas locales (`results.zip` y `schema.csv`), garantizando que pueda ejecutarse en cualquier sistema operativo sin modificar el código.
-- **Semilla Aleatoria:** Todas las funciones que involucran procesos estocásticos (muestreo en Sweetviz, K-Means y PCA) tienen fijada la semilla (`random_state=42`) para asegurar la exacta reproducibilidad de las métricas, valores $p$ y gráficos.
-
----
-
 ## Integrantes del Grupo
 
 - **Gonzalo Lopez**
