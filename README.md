@@ -107,6 +107,7 @@ Para asegurar que todo el código corra limpiamente de principio a fin sin error
    - Todo el flujo de datos (cargado de datos crudos, limpieza, visualizaciones, pruebas estadísticas y conclusiones) se ejecutará secuencialmente sin interrupciones.
 
 ---
+
 ## Integrantes del Grupo
 
 - **Gonzalo Lopez**
