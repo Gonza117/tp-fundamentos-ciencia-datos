@@ -27,7 +27,7 @@ El proyecto realiza un análisis exploratorio inicial de datos (EDA), la caracte
 
 ## Requisitos Previos
 
-Asegúrate de contar con las siguientes herramientas instaladas localmente antes de iniciar:
+
 
 - **Python:** Versión `3.10` o superior.
 - **Git:** Para clonar el repositorio desde GitHub.
@@ -105,13 +105,6 @@ Para asegurar que todo el código corra limpiamente de principio a fin sin error
 3. **Ejecutar secuencialmente:**
    - Presiona el botón **"Restart & Run All"** (Reiniciar y Ejecutar Todo) en la barra superior del notebook.
    - Todo el flujo de datos (cargado de datos crudos, limpieza, visualizaciones, pruebas estadísticas y conclusiones) se ejecutará secuencialmente sin interrupciones.
-
----
-
-## Garantía de Reproducibilidad
-
-- **Rutas Relativas:** La notebook utiliza exclusivamente rutas relativas locales (`results.zip` y `schema.csv`), garantizando que pueda ejecutarse en cualquier sistema operativo sin modificar el código.
-- **Semilla Aleatoria:** Todas las funciones que involucran procesos estocásticos (muestreo en Sweetviz, K-Means y PCA) tienen fijada la semilla (`random_state=42`) para asegurar la exacta reproducibilidad de las métricas, valores $p$ y gráficos.
 
 ---
 
